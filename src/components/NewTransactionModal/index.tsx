@@ -1,7 +1,6 @@
 import { FormEvent, useState, useContext } from "react";
 import Modal from "react-modal";
 import { TransactionsContext } from "../../TransactionsContext";
-import { api } from "../../services/api";
 
 import incomeImg from "../../assets/income.svg";
 import outcomeImg from "../../assets/outcome.svg";
@@ -40,7 +39,7 @@ export function NewTransactionModal({
     setTitle("");
     setAmount(0);
     setCategory("deposit");
-    setType("deposit");
+    setType("");
     onRequestClose();
   }
 
