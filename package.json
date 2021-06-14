@@ -2,6 +2,7 @@
   "name": "ignite-dtmoney",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://SenhorBiscoito.github.io/ignite-dt-money",
   "dependencies": {
     "axios": "^0.21.1",
     "miragejs": "^0.1.41",
